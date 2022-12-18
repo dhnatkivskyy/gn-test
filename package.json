@@ -7,7 +7,9 @@
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "vanilla-dev": "nodemon vanilla-index.js",
+    "vanilla-start": "node vanilla-index.js"
   },
   "keywords": [],
   "author": "Dmytro Hnatkivskyy",

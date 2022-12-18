@@ -18,6 +18,14 @@ Navigate to `http://localhost:/get-symbols/:number`
 The `:number` is responsible for the number param which application will receive as an input.
 I case of passing non-integer value the application will return an error as a response.
 
+To run the Pure node js server use:
+```
+    $ npm run vanilla-dev
+```
+Navigate to `http://localhost:3000/get-symbols?num=:number`
+The `:number` is responsible for the number param which application will receive as an input.
+I case of passing non-integer value the application will return an error as a response.
+
 ## Usage
 Run:
 ```
