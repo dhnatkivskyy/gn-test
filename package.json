@@ -1,0 +1,25 @@
+{
+  "name": "gn-test",
+  "version": "1.0.0",
+  "description": "gn test task",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Dmytro Hnatkivskyy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "supertest": "^6.3.3"
+  }
+}
