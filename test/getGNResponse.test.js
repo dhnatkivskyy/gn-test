@@ -1,4 +1,4 @@
-import {getGNResponse} from '../helpers/getGNResponse.js'; 
+import {getGNResponse} from '../services/getGNResponse.js'; 
 
 describe('Should return correct values', () => {
   test('should return G', () => {
